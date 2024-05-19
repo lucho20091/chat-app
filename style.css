@@ -264,7 +264,10 @@ body{
         bottom: 0;
         height: 10%;
     }
+    .message-structure:first-child{
+        padding-top: 30%;
+    }
     .message-structure:last-child{
-        padding-bottom: 40%;
+        padding-bottom: 30%;
     }
 }
