@@ -51,7 +51,7 @@ function scrollToBottom() {
     bodyText.scrollTop = bodyText.scrollHeight;
 }
 function scrollToUp(){
-    bodyText.scrollTop = 0;
+    bodyText.scrollTop = -20;
 }
 onValue(chatAppInDB, function(snapshot){
     if (snapshot.exists()){
