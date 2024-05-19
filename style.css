@@ -259,7 +259,7 @@ body{
     .input-div{
         position: fixed;
         bottom: 0;
-        height: 20%;
+        height: 12%;
     }
     .message-structure:last-child{
         padding-bottom: 20%;
