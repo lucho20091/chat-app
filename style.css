@@ -261,5 +261,7 @@ body{
         bottom: 0;
         height: 20%;
     }
-
+    .message-structure:last-child{
+        padding-bottom: 20%;
+    }
 }
