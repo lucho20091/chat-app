@@ -43,16 +43,14 @@ btn.addEventListener('click', (event) => {
     }
     push(chatAppInDB, myObj)
     textinput.value = ""
-    scrollToUp()
+
 }
 )
 
 function scrollToBottom() {
     bodyText.scrollTop = bodyText.scrollHeight;
 }
-function scrollToUp(){
-    bodyText.scrollTop = -20;
-}
+
 onValue(chatAppInDB, function(snapshot){
     if (snapshot.exists()){
         let html = ''
