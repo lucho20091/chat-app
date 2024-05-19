@@ -257,6 +257,8 @@ body{
         flex-grow: 1;
     }
     .input-div{
+        position: fixed;
+        bottom: 0;
         height: 10%;
     }
 
