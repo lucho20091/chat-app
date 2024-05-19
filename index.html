@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Mukta:wght@400;700" rel="stylesheet">
+</head>
+<body>
+    <div class="flex">
+        <div class="module" id="module">
+            <h1>Create Account</h1>
+            <form action="">
+                <input 
+                type="text"
+                id="userName"
+                name="userName"
+                placeholder="Enter Username"
+                maxlength="15">
+                <button id="create-btn">Sign In</button>
+            </form>
+        </div>
+        <div class="module-sign-in hide" id="module-sign-in">
+            <h1>Sign In</h1>
+            <form action="">
+                <button id="sign-create-btn">Create Account</button>
+                <button id="sign-btn">Sign In</button>
+            </form>
+        </div>
+        <div class="container hide" id="container">
+            <div class="top">
+                <div class="flex-top">
+                    <div class="flex-top-left">
+                        <img src="assets/chat-icon.png" alt="">
+                        <h1>Chat Application</h1>
+                    </div>
+                    <div class="top-right">
+                        <p id="username-top"></p>
+                        <button id="sign-out-btn">Sign Out</button>
+                    </div>
+                </div>
+            </div>
+            <div class="body-text" id="body-text">
+                <div class="message-structure">
+                    <img src="assets/girl-profile-picture.jpg" alt="">
+                    <div class="column">
+                        <p class="name">Dianne</p>
+                        <p class="message">Hi David, have you got the project report pdf?</p>
+                    </div>
+                </div>
+                <div class="message-structure reverse">
+                    <img src="assets/man-profile.png" alt="">
+                    <div class="column">
+                        <p class="name">David</p>
+                        <p class="message">No, I did not get it</p>
+                    </div>
+                </div>
+                <div class="message-structure">
+                    <img src="assets/girl-profile-picture.jpg" alt="">
+                    <div class="column">
+                        <p class="name">Dianne</p>
+                        <p class="message">Ok, I will just sent it here. Plz be sure to fill the details by today end of the day.</p>
+                    </div>
+                </div>
+                <div class="message-structure">
+                    <img src="assets/girl-profile-picture.jpg" alt="">
+                    <div class="column">
+                        <p class="name">Dianne</p>
+                        <p class="message">Hi David, have you got the project report pdf?</p>
+                    </div>
+                </div>
+                <div class="message-structure reverse">
+                    <img src="assets/man-profile.png" alt="">
+                    <div class="column">
+                        <p class="name">David</p>
+                        <p class="message">No, I did not get it</p>
+                    </div>
+                </div>
+                <div class="message-structure">
+                    <img src="assets/girl-profile-picture.jpg" alt="">
+                    <div class="column">
+                        <p class="name">Dianne</p>
+                        <p class="message">Ok, I will just sent it here. Plz be sure to fill the details by today end of the day.</p>
+                    </div>
+                </div>
+                <div class="message-structure">
+                    <img src="assets/girl-profile-picture.jpg" alt="">
+                    <div class="column">
+                        <p class="name">Dianne</p>
+                        <p class="message">Hi David, have you got the project report pdf?</p>
+                    </div>
+                </div>
+                <div class="message-structure reverse">
+                    <img src="assets/man-profile.png" alt="">
+                    <div class="column">
+                        <p class="name">David</p>
+                        <p class="message">No, I did not get it</p>
+                    </div>
+                </div>
+                <div class="message-structure">
+                    <img src="assets/girl-profile-picture.jpg" alt="">
+                    <div class="column">
+                        <p class="name">Dianne</p>
+                        <p class="message">Ok, I will just sent it here. Plz be sure to fill the details by today end of the day.</p>
+                    </div>
+                </div>
+                
+            </div>
+            <div class="input-div">
+                <form class="input" id="form">            
+                <input 
+                type="text"
+                placeholder="Write Something"
+                id="text-input">
+                <button id="btn">Send</button>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js" type="module"></script>
+</body>
+</html>
