@@ -215,7 +215,7 @@ body{
 
 @media (max-width: 768px){
     body{
-        background: #DCE8FF
+        background: black;
     }
     .flex{
         align-items: start;
@@ -224,7 +224,7 @@ body{
         display: flex;
         flex-direction: column;
         width: 100%;
-        height: 100vh;
+        height: 50%;
         
     }
     .top{
@@ -253,7 +253,7 @@ body{
         border-radius: 10%;
     }
     .body-text{
-        height: 80%;
+        height: 90%;
     }
     .input{
         flex-grow: 1;
