@@ -261,6 +261,9 @@ body{
         padding: 9px 9px;
         border-radius: 10%;
     }
+    .margin{
+        padding: 80px 0;
+    }
     .body-text{
         flex-grow: 1;
     }
@@ -268,9 +271,6 @@ body{
         position: fixed;
         bottom: 0;
         height: 10%;
-    }
-    .message-structure:first-child{
-        padding-top: 30%;
     }
     .message-structure:last-child{
         padding-bottom: 30%;
