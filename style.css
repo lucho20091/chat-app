@@ -281,4 +281,11 @@ body{
     .module-sign-in{
         width: 100%;
     }
+    .module h1{
+        font-size: 2em;
+    }
+    .module input{
+        padding: 10px 10px;
+        font-size: 1em;
+    }
 }
