@@ -115,7 +115,7 @@ body{
     color: #FFF;
 }
 /* input */
-.input{
+.input-div{
     display: flex;
     align-items: center;
     justify-content: center;
@@ -124,7 +124,7 @@ body{
     height: 73px;
     background: #DCE8FF;
 }
-.input input {
+.input-div input {
     padding: 10px 20px;
     border-radius: 10px;
     width: 60%;
@@ -132,7 +132,7 @@ body{
     border: none;
 
 }
-.input button{
+.input-div button{
     padding: 10px 20px;
     font-size: 18px;
     border-radius: 10px;
@@ -140,7 +140,7 @@ body{
     background: #4399FF;
     color: #FFF;
 }
-.input button:hover{
+.input-div button:hover{
     cursor: pointer;
 }
 
@@ -256,8 +256,8 @@ body{
     .body-text{
         flex-grow: 1;
     }
-    .input{
-        flex-grow: 1;
+    .input-div{
+        height: 10%;
     }
 
 }
