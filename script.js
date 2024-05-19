@@ -46,8 +46,9 @@ btn.addEventListener('click', (event) => {
 }
 )
 
-bodyText.scrollTo(0, document.body.scrollHeight);
-
+function scrollToBottom() {
+    bodyText.scrollTop = bodyText.scrollHeight;
+}
 onValue(chatAppInDB, function(snapshot){
     if (snapshot.exists()){
         let html = ''
@@ -66,6 +67,7 @@ onValue(chatAppInDB, function(snapshot){
             </div>`
         }
         bodyText.innerHTML = html
+        scrollToBottom()
     }
 })
 
