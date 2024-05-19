@@ -249,8 +249,8 @@ body{
     }
     .top-right button{
         font-size: 14px;
-        padding: 3px 9px;
-        border-radius: 2px;
+        padding: 9px 9px;
+        border-radius: 10%;
     }
     .body-text{
         height: 80%;
