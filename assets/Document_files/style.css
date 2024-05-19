@@ -245,7 +245,7 @@ body{
         font-size: 1.4em;
     }
     .top-right p{
-        display: none;
+        font-size: 14px;
     }
     .top-right button{
         font-size: 14px;
