@@ -64,6 +64,8 @@ onValue(chatAppInDB, function(snapshot){
             </div>`
         }
         bodyText.innerHTML = html
+        window.scrollTo(0, document.body.scrollHeight);
+
     }
 })
 
