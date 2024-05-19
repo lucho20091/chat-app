@@ -214,6 +214,9 @@ body{
 }
 
 @media (max-width: 768px){
+    body{
+        overflow: none;
+    }
     .flex{
         align-items: start;
     }
