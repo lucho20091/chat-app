@@ -275,4 +275,10 @@ body{
     .message-structure:last-child{
         padding-bottom: 30%;
     }
+    .module{
+        width: 100%;
+    }
+    .module-sign-in{
+        width: 100%;
+    }
 }
