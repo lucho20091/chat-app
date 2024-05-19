@@ -224,7 +224,7 @@ body{
         display: flex;
         flex-direction: column;
         width: 100%;
-        height: 50%;
+        height: 60%;
         
     }
     .top{
@@ -238,8 +238,8 @@ body{
         justify-content: center;
     }
     .top img{
-        width: 4em;
-        height: 4em;
+        width: 2em;
+        height: 2em;
     }
     .top h1{
         font-size: 1.4em;
