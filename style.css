@@ -254,7 +254,7 @@ body{
         border-radius: 10%;
     }
     .body-text{
-        height: 90%;
+        flex-grow: 1;
     }
     .input{
         flex-grow: 1;
