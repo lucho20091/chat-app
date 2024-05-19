@@ -77,7 +77,7 @@ body{
     width: 45px;
     height: 45px;
     border-radius: 50%;
-    object-fit: cover;
+    
     border: 1px solid #C3DFE0;
 }
 .message-structure{
