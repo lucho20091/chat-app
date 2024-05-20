@@ -15,14 +15,14 @@ const usernameTop = document.getElementById('username-top');
 
 // Set up Firebase
 const firebaseConfig = {
-    apiKey: "AIzaSyBIx3AToBhfMz3PdsxlvqWx-HrLv_bTP5c",
-    authDomain: "chat-app-e5e82.firebaseapp.com",
-    databaseURL: "https://chat-app-e5e82-default-rtdb.firebaseio.com",
-    projectId: "chat-app-e5e82",
-    storageBucket: "chat-app-e5e82.appspot.com",
-    messagingSenderId: "586180616637",
-    appId: "1:586180616637:web:feeac4832e1b3ef0adf2d4"
-};
+    apiKey: "AIzaSyBKe0bu_r4f4uh101ZUPytZmv9j88UWYZA",
+    authDomain: "chat-app-v2-1d04b.firebaseapp.com",
+    databaseURL: "https://chat-app-v2-1d04b-default-rtdb.firebaseio.com/",
+    projectId: "chat-app-v2-1d04b",
+    storageBucket: "chat-app-v2-1d04b.appspot.com",
+    messagingSenderId: "1055166223911",
+    appId: "1:1055166223911:web:279426271b75a30fab6002"
+  };
 
 const app = initializeApp(firebaseConfig);
 const database = getDatabase(app);
