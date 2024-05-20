@@ -87,18 +87,20 @@ onValue(chatAppInDB, (snapshot) => {
         const userId = localStorage.getItem("id");
         const itemsArray = Object.entries(snapshot.val());
         for (const [key, value] of itemsArray) {
-            const reverseClass = (value.id === userId) ? 'reverse' : '';
-            html += `
-                <div class="message-structure ${reverseClass}">
-                    <img src="assets/profile-default.png" alt="">
-                    <div class="column">
-                        <p class="name">${value.name}</p>
-                        <div class="message">            
-                        <p>${value.text}</p>
-                        ${value.imageUrl ? `<img src="${value.imageUrl}" alt="Image" class="uploaded-image">` : ''}
+            if (!value.text == '' || !value.imageUrl == '') {                
+                const reverseClass = (value.id === userId) ? 'reverse' : '';
+                html += `
+                    <div class="message-structure ${reverseClass}">
+                        <img src="assets/profile-default.png" alt="">
+                        <div class="column">
+                            <p class="name">${value.name}</p>
+                            <div class="message">            
+                            <p>${value.text}</p>
+                            ${value.imageUrl ? `<img src="${value.imageUrl}" alt="Image" class="uploaded-image">` : ''}
+                            </div>
                         </div>
-                    </div>
-                </div>`;
+                    </div>`;
+            }
         }
         bodyText.innerHTML = html;
         scrollToBottom();
