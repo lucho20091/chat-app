@@ -102,8 +102,8 @@ body{
     border: none;
 }
 .increase{
-    width: 20em !important; 
-    height: 20em !important;
+    width: 100% !important; 
+    height: 100% !important;
 }
 
 .reverse{
