@@ -12,6 +12,7 @@ const fileInput = document.getElementById('file-input');
 const bodyText = document.getElementById('body-text');
 const signOutBtn = document.getElementById('sign-out-btn');
 const usernameTop = document.getElementById('username-top');
+const imageChat = document.getElementsByClassName('uploaded-image')
 
 // Set up Firebase
 const firebaseConfig = {
@@ -96,13 +97,23 @@ onValue(chatAppInDB, (snapshot) => {
                             <p class="name">${value.name}</p>
                             <div class="message">            
                             <p>${value.text}</p>
-                            ${value.imageUrl ? `<img src="${value.imageUrl}" alt="Image" class="uploaded-image">` : ''}
+                            ${value.imageUrl ? `<img src="${value.imageUrl}" alt="Image" 
+                            class="uploaded-image" >` : ''}
                             </div>
                         </div>
                     </div>`;
-            }
+            } 
         }
         bodyText.innerHTML = html;
         scrollToBottom();
     }
 });
+
+
+document.addEventListener('click', function(e) {
+      console.log(e.target)
+      if (e.target.classList.contains('uploaded-image')){
+        e.target.classList.toggle('increase')
+      }
+    
+  })

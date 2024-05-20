@@ -101,6 +101,10 @@ body{
     padding: 10px;
     border: none;
 }
+.increase{
+    width: 20em !important; 
+    height: 20em !important;
+}
 
 .reverse{
     flex-direction: row-reverse;
@@ -111,7 +115,8 @@ body{
     font-weight: bold;
 }
 .message{
-    max-width: 250px;
+    width: fit-content;
+    max-width: 100%;
     flex-wrap: wrap;
     background: #DCE8FF;
     padding: 10px 20px;
@@ -288,6 +293,9 @@ body{
         position: fixed;
         bottom: 0;
         height: 10%;
+    }
+    .message{
+        max-width: 100%;
     }
     .message-structure:last-child{
         padding-bottom: 30%;
