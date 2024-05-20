@@ -95,8 +95,8 @@ onValue(chatAppInDB, (snapshot) => {
                         <p class="name">${value.name}</p>
                         <div class="message">            
                         <p>${value.text}</p>
+                        ${value.imageUrl ? `<img src="${value.imageUrl}" alt="Image" class="uploaded-image">` : ''}
                         </div>
-                        ${value.imageUrl ? `<img src="${value.imageUrl}" alt="Image" class="uploaded-imag">` : ''}
                     </div>
                 </div>`;
         }
