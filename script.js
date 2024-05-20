@@ -11,11 +11,13 @@ const usernameTop = document.getElementById('username-top');
 // Set up Firebase
 import { initializeApp } from "https://www.gstatic.com/firebasejs/9.15.0/firebase-app.js"
 import { getDatabase, ref, push, onValue, remove } from "https://www.gstatic.com/firebasejs/9.15.0/firebase-database.js"
+import { getStorage, ref as storageRef, uploadBytes, getDownloadURL } from "https://www.gstatic.com/firebasejs/9.15.0/firebase-storage.js";
 const appSettings = {
     databaseURL: "https://chat-app-e5e82-default-rtdb.firebaseio.com/"
 }
 const app = initializeApp(appSettings)
 const database = getDatabase(app)
+const storage = getStorage(app)
 const chatAppInDB = ref(database, "messages")
 
 // login and signin logic
